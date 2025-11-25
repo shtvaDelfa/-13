@@ -1,0 +1,48 @@
+body {
+    /* background-image: url(./i.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: url(./i.webp) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playwrite NZ Guides", cursive;
+    overflow: hidden;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rebeccapurple;
+}
+
+.card-head {
+    background-color: #e56f8a;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {}
+
+.card-footer {
+    background-color: #e56f8a;
+    padding: 20px;
+}
+
+.card-btn {
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    box-shadow: 5px 5px 7px rgb(173, 109, 237);
+}
